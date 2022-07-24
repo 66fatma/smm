@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    z-index: 999;
+    background-color: #053a66;
+    position: fixed;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    transition: 0.7s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+    
+    
+}
+.navigition a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-left: 30px;
+    color: white;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+.navigition a :hover{
+    transform: scale(1.1);
+    
+}
+section{
+    padding: 100px 100px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../css/pexels-cottonbro-5483071.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.main h2 span{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700; 
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 20px
+}
+.main-btn{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    font-size: 1em;
+    font-weight: 900px;
+    background-color: #053a66;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+}
+.main-btn:hover{
+    color: #053a66;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.sc-me a{
+    display: inline-block;
+    text-decoration: none;
+    color: #053a66;
+    padding-right: 30px;
+    background-color: #fff;
+    font-size: 1.5em;
+    border-radius: 15px;
+    transition: 0.8s ease;
+    margin-left: 5px;
+    
+}
+.sc-me a:hover{
+    padding-left: 30px;
+    background-color: #053a66;
+    color:#fff;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #053a66;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    padding: 100px 150px;
+}
+.card{
+    width: 18em;
+    border-radius:15px ;
+    background-color: #053a66;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 20px;
+    color: #fff;
+    height: 300px;
+
+    
+
+}
+.icon{
+    text-align: center;
+    font-size: 5em;
+}
+.info h3{
+    margin: 10px;
+    font-size: 2em;
+}
